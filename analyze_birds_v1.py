@@ -59,7 +59,7 @@ with Client(url='https://molgenis.paraiko.com', token=token, schema='vhl_wvp_sou
         SpeciesCode=('id', 'count')
     )
     print(gb_songm)
-    gb_songm.to_csv('output/gb_songm2.csv')
+    gb_songm.to_csv('output/gb_songm3.csv')
 
 
     # filtered_df = table_data[(table_data['Confidence'] >= 0.7) &
